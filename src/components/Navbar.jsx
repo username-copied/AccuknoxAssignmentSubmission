@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./navbar.css"; // Import the CSS file
+import "./navbar.css";
 import { SlMagnifier } from "react-icons/sl";
 import { MdOutlineNotificationsActive } from "react-icons/md";
 import { CgProfile } from "react-icons/cg";
@@ -31,7 +31,7 @@ const Navbar = ({ handleSearch }) => {
             placeholder="Search anything"
             value={searchTerm}
             onChange={handleInputChange}
-            onKeyDown={handleKeyDown} // Add key down event listener
+            onKeyDown={handleKeyDown}
           />
           <span className="search">
             <SlMagnifier />

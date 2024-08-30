@@ -1,146 +1,133 @@
-/* Navbar.css */
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: white;
-    margin-top: -10px;
-    margin-bottom: -5px;
-  }
-  
-  .nav-links {
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    justify-content: space-between;
-  }
-  
-  .nav-links li {
-    position: relative;
-    display: flex;
-    align-items: center;
-  }
-  
-  .Home {
-    font-weight: 400;
-    /* font-size: large; */
-    color: #d4d7db;
-    margin-right: 2px;
-  }
-  
-  .home-link {
-    flex: 0 0 40%;
-    /* 40% width for Home */
-  }
-  
-  .search{
-    transform: translateX(-30px) translateY(2px);
-    color: #b8c8d7;
-  
-  }
-  
-  .search-bar {
-    flex: 0 0 30%;
-    /* padding: 10px; */
-    /* 30% width for the search bar */
-  }
-  
-  .search-bar input {
-    width: 100%;
-    padding: 6px;
-    border: 2px solid #e2efff;
-    border-radius: 10px;
-    /* font-size: 1em; */
-    font-size: 15px;
-    background-color: #f0f5fa;
-   
-  
-  }
-  
-  .search-bar input::placeholder {
-    color: #acb1b0;
-    /* transform: translateX(20px); */
-    font-family: "Poppins";
-    /* padding: 10px; */
-  }
-  
-  .search-bar:focus {
-    border: 1px solid #e2efff;
-   
-  
-  }
-  
-  .dropdown {
-    flex: 0 0 15%;
-    display: flex;
-    flex-direction: column;
-    /* border-radius: 50px; */
-  }
-  
-  .dropdown label {
-    color: #fff;
-    font-size: 1em;
-    margin-bottom: 5px;
-  }
-  
-  .dropdown-div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* border-color: #14147d; */
-    /* border: 100px; */
-    border: 1px solid #14147d;
-    padding: 0 4px;
-    border-radius: 10px;
-    color: #14147d;
-  }
-  
-  .dropdown-select {
-    padding: 5px;
-    border-radius: 3px;
-    border: none;
-    font-size: 1em;
-    background-color: #f0f5fa;
-    width: 100%;
-    color: #acb1b0;
-    font-family: "Poppins";
-  }
-  
-  .dropdown-select option {
-    background-color: #f0f5fa;
-  }
-  
-  .dropdown-select option {
-    color: #14147d;
-  }
-  
-  .dropdown-logo {
-    border-right: 1px solid #14147d;
-    padding-right: 8px;
-    display: flex;
-    align-items: center;
-  }
-  
-  .dropdown-select:focus {
-    outline: none;
-  }
-  
-  .dash {
-    color: #001f51;
-    font-weight: 600;
-  }
-  
-  .profile {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-  }
-  
-  .profile-logo {
-    display: flex;
-    align-items: center;
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  margin-top: -10px;
+  margin-bottom: -5px;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.nav-links li {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.Home {
+  font-weight: 400;
+
+  color: #d4d7db;
+  margin-right: 2px;
+}
+
+.home-link {
+  flex: 0 0 40%;
+}
+
+.search {
+  transform: translateX(-30px) translateY(2px);
+  color: #b8c8d7;
+}
+
+.search-bar {
+  flex: 0 0 30%;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 6px;
+  border: 2px solid #e2efff;
+  border-radius: 10px;
+
+  font-size: 15px;
+  background-color: #f0f5fa;
+}
+
+.search-bar input::placeholder {
+  color: #acb1b0;
+
+  font-family: "Poppins";
+}
+
+.search-bar:focus {
+  border: 1px solid #e2efff;
+}
+
+.dropdown {
+  flex: 0 0 15%;
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown label {
+  color: #fff;
+  font-size: 1em;
+  margin-bottom: 5px;
+}
+
+.dropdown-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid #14147d;
+  padding: 0 4px;
+  border-radius: 10px;
+  color: #14147d;
+}
+
+.dropdown-select {
+  padding: 5px;
+  border-radius: 3px;
+  border: none;
+  font-size: 1em;
+  background-color: #f0f5fa;
+  width: 100%;
+  color: #acb1b0;
+  font-family: "Poppins";
+}
+
+.dropdown-select option {
+  background-color: #f0f5fa;
+}
+
+.dropdown-select option {
+  color: #14147d;
+}
+
+.dropdown-logo {
+  border-right: 1px solid #14147d;
+  padding-right: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-select:focus {
+  outline: none;
+}
+
+.dash {
+  color: #001f51;
+  font-weight: 600;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.profile-logo {
+  display: flex;
+  align-items: center;
+}

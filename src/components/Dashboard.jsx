@@ -24,7 +24,6 @@ const Dashboard = () => {
 
   const [filteredDataByCategory, setFilteredDataByCategory] = useState([]);
 
-  // Refs for scrolling to widgets
   const widgetRefs = useRef({});
 
   const getCategoryWidgetCount = (categoryName) => {
@@ -34,7 +33,7 @@ const Dashboard = () => {
     if (category) {
       return category.widgets.length;
     } else {
-      return 0; // Or handle the case when the category is not found
+      return 0;
     }
   };
 
@@ -48,13 +47,11 @@ const Dashboard = () => {
   };
 
   const handleSearch = (searchTerm) => {
-    // Check if the search term matches any widget name
     const foundWidget = filteredDataByCategory.some((category) =>
       category.items.some((widget) => {
         if (
           widget.widgetName.toLowerCase().includes(searchTerm.toLowerCase())
         ) {
-          // Scroll to the widget
           widgetRefs.current[widget.id].scrollIntoView({ behavior: "smooth" });
           return true;
         }
@@ -178,11 +175,10 @@ const Dashboard = () => {
                     </button>
                   </div>
 
-                  {/* <div>{widget.categoryName}</div> */}
                   <img
                     src={widget.image}
                     alt={widget.name}
-                    style={{ width:"80%",maxHeight:"150px" }}
+                    style={{ width: "80%", maxHeight: "150px" }}
                   />
                 </div>
               ))}
