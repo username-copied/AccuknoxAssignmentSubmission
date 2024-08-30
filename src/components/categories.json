@@ -1,0 +1,82 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "categoryName": "CSPM",
+      "widgets": [
+        {
+          "id": "1",
+          "widgetName": "Widget 1",
+          "description": "This is Widget 1.",
+          "image": "https://via.placeholder.com/150"
+        },
+        {
+          "id": "2",
+          "widgetName": "Widget 2",
+          "description": "This is Widget 2.",
+          "image": "https://via.placeholder.com/150"
+        },
+        {
+          "id": "3",
+          "widgetName": "Widget 3",
+          "description": "This is Widget 3.",
+          "image": "https://via.placeholder.com/150"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "categoryName": "CWPP",
+      "widgets": [
+        {
+          "id": "4",
+          "widgetName": "Widget 4",
+          "description": "This is Widget 4.",
+          "image": "https://via.placeholder.com/150"
+        },
+        {
+          "id": "5",
+          "widgetName": "Widget 5",
+          "description": "This is Widget 5.",
+          "image": "https://via.placeholder.com/150"
+        },
+        {
+          "id": "6",
+          "widgetName": "Widget 6",
+          "description": "This is Widget 6.",
+          "image": "https://via.placeholder.com/150"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "categoryName": "Image",
+      "widgets": [
+        {
+          "id": "7",
+          "widgetName": "Widget 7",
+          "description": "This is Widget 7.",
+          "image": "https://via.placeholder.com/150"
+        },
+        {
+          "id": "8",
+          "widgetName": "Widget 8",
+          "description": "This is Widget 8.",
+          "image": "https://via.placeholder.com/150"
+        },
+        {
+          "id": "9",
+          "widgetName": "Widget 9",
+          "description": "This is Widget 9.",
+          "image": "https://via.placeholder.com/150"
+        },
+        {
+          "id": "10",
+          "widgetName": "Widget 10",
+          "description": "This is Widget 10.",
+          "image": "https://via.placeholder.com/150"
+        }
+      ]
+    }
+  ]
+}

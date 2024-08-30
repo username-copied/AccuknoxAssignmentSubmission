@@ -1,0 +1,73 @@
+[
+    {
+      "id": "1",
+      "name": "Widget 1",
+      "text": "This is Widget 1",
+      "category": "CSPM Executive Dashboard",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": "2",
+      "name": "Widget 2",
+      "text": "This is Widget 2",
+      "category": "CSPM Executive Dashboard",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": "3",
+      "name": "Widget 3",
+      "text": "This is Widget 3",
+      "category": "CSPM Executive Dashboard",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": "4",
+      "name": "Widget 4",
+      "text": "This is Widget 4",
+      "category": "Security Operations Dashboard",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": "5",
+      "name": "Widget 5",
+      "text": "This is Widget 5",
+      "category": "Security Operations Dashboard",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": "6",
+      "name": "Widget 6",
+      "text": "This is Widget 6",
+      "category": "Security Operations Dashboard",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": "7",
+      "name": "Widget 7",
+      "text": "This is Widget 7",
+      "category": "Compliance Dashboard",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": "8",
+      "name": "Widget 8",
+      "text": "This is Widget 8",
+      "category": "Compliance Dashboard",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": "9",
+      "name": "Widget 9",
+      "text": "This is Widget 9",
+      "category": "Compliance Dashboard",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": "10",
+      "name": "Widget 10",
+      "text": "This is Widget 10",
+      "category": "Compliance Dashboard",
+      "image": "https://via.placeholder.com/150"
+    }
+  ]
+  

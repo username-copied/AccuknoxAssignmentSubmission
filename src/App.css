@@ -1,0 +1,22 @@
+
+
+.app {
+    font-family: "Poppins";
+    box-sizing: border-box;
+}
+
+.Dashboard {
+    background-color: #F0F5FA;
+    height: 100%;
+    width: 100%;
+    margin-top: -10px;
+}
+
+.button {
+    background-color: white;
+    padding: 8px;
+    border-radius: 10px;
+    border-color: lightgray;
+    color: #646f7d;
+    font-weight: 500;
+}
